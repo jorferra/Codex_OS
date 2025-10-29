@@ -1,11 +1,11 @@
 ---
-client: "g"
-goal: "f"
-signal: "s"
-timestamp: "2025-10-28 23:53"
+client: <% tp.system.prompt("Client name?") %>
+goal: <% tp.system.prompt("What's the goal?") %>
+signal: <% tp.system.prompt("Signal type?") %>
+timestamp: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 ---
 
-# 2025-10-28-sync
+# <% tp.date.now("YYYY-MM-DD") %>-sync
 
 ⚡ Pending sync
 
@@ -13,5 +13,3 @@ timestamp: "2025-10-28 23:53"
 
 
 ---
- 
-
