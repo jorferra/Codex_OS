@@ -1,5 +1,10 @@
+# Obsidian / macOS noise
 .obsidian/workspace.json
-.obsidian/cache
+.obsidian/cache/
 .obsidian/plugins/*/data.json
 .trash/
 .DS_Store
+Thumbs.db
+
+# Temporary
+sync/
