@@ -1,5 +1,16 @@
 # Router Console — CDX
 
+
+```button
+name New SYNC Log
+type command
+action QuickAdd: New SYNC Log
+```
+
+
+
+
+
 ```button
 name New SYNC Log
 type command
