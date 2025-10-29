@@ -1,11 +1,11 @@
 ---
-client: "<% tp.system.prompt('Client?') %>"
-goal: "<% tp.system.prompt('Goal?') %>"
-signal: "<% tp.system.prompt('Signal?') %>"
-timestamp: "<% tp.date.now('YYYY-MM-DD HH:mm') %>"
+client: "g"
+goal: "f"
+signal: "s"
+timestamp: "2025-10-28 23:53"
 ---
 
-# <% tp.date.now("YYYY-MM-DD") %>-sync
+# 2025-10-28-sync
 
 ⚡ Pending sync
 
@@ -15,9 +15,3 @@ timestamp: "<% tp.date.now('YYYY-MM-DD HH:mm') %>"
 ---
  
 
-<%*
-const newName = tp.date.now("YYYY-MM-DD_HH-mm");
-const targetFolder = "CDX/Codex_OS/_OPERATIONS/SYNC_Logs";
-await tp.file.rename(newName);
-await tp.file.move(targetFolder + "/" + newName);
-%>
