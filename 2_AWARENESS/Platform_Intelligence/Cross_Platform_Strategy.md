@@ -1,4 +1,4 @@
-# 🔄 Cross-Platform Strategy — Codex OS  
+ # 🔄 Cross-Platform Strategy — Codex OS  
 **Layer:** 2 — Awareness  
 **Version:** 1.0  
 **Author:** CDX Router (Jor Ferraro)  
