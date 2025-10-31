@@ -21,7 +21,7 @@ action Templater: Create new note from template
 ```button
 name Iniciar Loop de Creación (CDX) 
 type templater 
-action "_OPERATIONS/Scripts/trigger-creation-loop.js"
+action "_OPERATIONS/Templates/trigger-creation-loop.md"
 
 ```
 
