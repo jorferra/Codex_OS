@@ -19,9 +19,9 @@ action Templater: Create new note from template
  
 
 ```button
-name Crear nuevo Job Packet
-type command
-action Templater: Create new note from template
+name Iniciar Loop de Creación (CDX) 
+type templater 
+action "_OPERATIONS/Scripts/trigger-creation-loop.js"
 
 ```
 
