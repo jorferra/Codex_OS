@@ -1,7 +1,7 @@
 <%*
 // 1. CONFIGURACIÓN
-// ¡ACCIÓN REQUERIDA! Pega tu "Production URL" del Paso 1 aquí:
-const WEBHOOK_URL = "PEGA_TU_PRODUCTION_URL_AQUÍ";
+// ¡ACCIÓN REQUERIDA! Pega tu URL de Producción de n8n aquí:
+const WEBHOOK_URL = "https://cdxlat.app.n8n.cloud/webhook/4695b2df-666d-4d0c-b8b3-d7cbe1ed722b";
 
 // 2. PEDIR DATOS AL ROUTER (Jor)
 // Pedir el cliente.
@@ -50,7 +50,7 @@ try {
 
 } catch (error) {
     console.error("Error al llamar al Webhook de n8n:", error);
-    new Notice(`❌ ERROR: No se pudo conectar a n8n. Revisa la consola.\n${error.message}`, 15000);
+    new Notice(`❌ ERROR: No se pudo conectar a n8n. Revisa la consola.\n${error.message}`, 10000);
 }
 
 // Esta línea evita que el script inserte "undefined" en la nota.
