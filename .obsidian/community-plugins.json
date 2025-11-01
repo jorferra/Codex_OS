@@ -1,8 +1,8 @@
 [
   "buttons",
   "dataview",
-  "templater-obsidian",
-  "quickadd",
+  "obsidian-git",
   "periodic-notes",
-  "obsidian-git"
+  "quickadd",
+  "templater-obsidian"
 ]

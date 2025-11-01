@@ -5182,3 +5182,5 @@ var InlineButton = class extends import_obsidian20.MarkdownRenderChild {
     this.el.replaceWith(button);
   }
 };
+
+/* nosourcemap */
